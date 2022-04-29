@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="title">
+        <span id="site-name">Ecommerce Site</span>
+        <span>Global</span>
+        <span id="site-version">v3</span>
+      </h1>
+      <div class="info">
+        <p id="info-content">Best Shop Site</p>
+      </div>
+      <ul class="product-list">
+        <li onclick="console.log('iphone')">Iphone</li>
+        <li>Samsung</li>
+        <li>Xiamoi</li>
+      </ul>
+
+
+      <button id="modal-open-button">open modal</button>
+
+      <div id="accordion-1" class="accordion-container"></div>
+
+      
+      <div class="image-div">
+        <img
+          src=""
+          alt="products-image"
+        />
+        <p></p>
+        <h5></h5>
+      </div>
+      <div class="page-wrapper">
+      </div>
+
+      <div id="accordion-2" class="accordion-container"></div>
+
+
+
+    </div>
+    <div class="backdrop"></div>
+      <div class="modal-container">
+        <div class="modal-title">{% trans "Modal Title" %}</div>
+        <div class="modal-body">
+          <input type="text" placeholder="Ad Soyad">
+          <input type="text" placeholder="Adress">
+        </div>
+        <div class="modal-footer">
+          <button class="order">Order</button>
+          <button class="cancel">Cancel</button>
+        </div>
+      </div>
+
+
+      <button id="up-button"></button>
+    <script src="index.js"></script>
+  </body>
+</html>
